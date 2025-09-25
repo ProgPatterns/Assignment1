@@ -15,7 +15,6 @@ public class TwoDArray {
 
         System.out.println("The average student grade from exam " + (examNum+1) + " is " + calculateExamAvg(examNum, gradeTable));
         System.out.println("The average grade of student " + (stdNum+1) + " is " + calculateStdAvg(stdNum, gradeTable));
-
     }
 
 //    b.	Given an exam number, calculates the average for that exam counting all students

@@ -6,9 +6,9 @@ public class StackExercise {
         Stack<String> myStack = new Stack<>();
         Scanner input = new Scanner(System.in);
         while(true) {
-            System.out.println("Please enter names for your list of names. (enter # to quit)");
+            System.out.println("Please enter names for your list. (enter # to quit)");
             String names = input.nextLine();
-            if(names.matches("#"))
+            if(names.equals("#"))
                 break;
             myStack.push(names);//add the name in the stack
         }
